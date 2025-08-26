@@ -1,5 +1,5 @@
 <template>
-  <div class="home"></div>
+  <div class="home">请点击左侧菜单导航</div>
 </template>
 
 <script>
@@ -11,3 +11,12 @@ export default {
   components: {},
 };
 </script>
+
+<style>
+.home {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 24px;
+}
+</style>

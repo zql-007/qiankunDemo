@@ -10,7 +10,6 @@
       <el-header> </el-header>
       <el-container :style="'height:' + (parseInt(windowHeight) - 48) + 'px'">
         <el-menu
-          default-active="1"
           class="el-menu-vertical-demo"
           @select="selectMenu"
           @open="handleOpen"
