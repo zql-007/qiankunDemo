@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import layout from '../views/qiankun/index.vue'
+import layout from "../views/qiankun/index.vue";
 Vue.use(VueRouter);
 
 const routes = [
@@ -21,13 +21,13 @@ const routes = [
   },
   {
     path: "/test-web/*",
-    meta: 'test-web',
-    component: layout
+    meta: "test-web",
+    component: layout,
   },
   {
-    path: "/sub-vite/*",
-    meta: 'sub-vite',
-    component: layout
+    path: "/test-two/*",
+    meta: "test-two",
+    component: layout,
   },
 ];
 

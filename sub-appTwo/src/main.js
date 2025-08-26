@@ -20,7 +20,7 @@ if (window.__POWERED_BY_QIANKUN__) {
 let instance = null;
 function render(props = {}) {
   const { container } = props;
-  console.log(11111111111111, window.__POWERED_BY_QIANKUN__, '字段值')
+  console.log(2222222222222, window.__POWERED_BY_QIANKUN__, '字段值2')
   instance = new Vue({
     router,
     store,
@@ -32,6 +32,7 @@ if (!window.__POWERED_BY_QIANKUN__) {
   console.log('独立运行')
   render();
 }
+
 
 function storeTest(props) {
   props.onGlobalStateChange &&

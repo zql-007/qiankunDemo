@@ -1,5 +1,5 @@
 <template>
-  <div class="sub-app">子应用项目一two</div>
+  <div class="sub-app">项目二地址one</div>
 </template>
 
 <style lang="scss" scoped>
@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  background-color: antiquewhite;
+  background-color: darkkhaki;
   height: 300px;
 }
 </style>
